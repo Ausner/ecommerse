@@ -148,7 +148,7 @@ export default function Cart () {
             </div>
             <Toaster/>
             {/* modal */}
-            <OrderModal 
+            <OrderModal style={{marginTop: '10px'}}
             opened={PaymentMethod === 0}
             setOpened = {setPaymentMethod}
             PaymentMethod  = {PaymentMethod}

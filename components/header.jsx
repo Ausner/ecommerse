@@ -21,7 +21,7 @@ export default function Header () {
            {/* LOGO */}
            <div className={css.logo}>
             <Image src={Logo} alt="" width={50} height={50}/>
-            <span>AuStore</span>
+            <span>All Pizza</span>
            </div>
 
 
